@@ -4,3 +4,8 @@
 	flex-direction: column;
 	align-items: center;
 }
+
+.app-button {
+	background: transparent;
+	border: none;
+}
