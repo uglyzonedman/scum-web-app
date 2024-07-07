@@ -39,10 +39,10 @@ function App() {
 						<img src={money} alt='money' />
 						<span className='app-money__text'>{count}</span>
 					</div>
-					<div
-						className='app-bar'
-						style={{ width: `${progress}%`, background: '#fff' }}
-					></div>
+					<div className='app-bar-base'>
+						<div className='app-bar' style={{ width: `${progress}%` }}></div>
+					</div>
+
 					<button
 						className='app-button'
 						onTouchMove={handleTouchMove}
