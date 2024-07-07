@@ -15,6 +15,11 @@ function App() {
 			<h3>{count}</h3>
 			<button
 				className='app-button'
+
+				onTouchMove={() => {
+					setCount(state => state + 1)
+				}}
+
 				onClick={() => {
 					setCount(state => state + 1)
 				}}
